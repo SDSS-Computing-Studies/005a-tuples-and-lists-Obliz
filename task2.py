@@ -23,3 +23,9 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+eli=[]
+count=0
+for i in range(0,5):
+    word=input("Enter a word: ").strip()
+    eli.insert(i,word)
+    print(eli)

@@ -25,4 +25,16 @@ word not in list
 """
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
+print(fruit)
+fru=(input("Enter a word: ").strip())
+print(fru)
+value=fru in fruit
+coun=fruit.count(fru)
+if value==True:
+    while coun!=0:
+        coun=coun-1
 
+else:
+    fuit.append(fru)
+
+    print(fruit)
