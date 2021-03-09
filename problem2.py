@@ -35,6 +35,7 @@ if value==True:
         coun=coun-1
 
 else:
-    fuit.append(fru)
+    fruit.append(fru)
 
-    print(fruit)
+
+print(fruit)
