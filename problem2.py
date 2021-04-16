@@ -26,6 +26,7 @@ word not in list
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
 
+<<<<<<< HEAD
 name = input("Enter a word from the list:")
 
 if name == "apple":
@@ -52,6 +53,3 @@ elif name == "blueberry":
 else:
     fruit.insert(9, name)
     print(fruit)
-
-
-

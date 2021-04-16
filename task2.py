@@ -23,6 +23,7 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+<<<<<<< HEAD
 x = input("Enter a word: ").strip()
 y = input("Enter a word: ").strip()
 z = input("Enter a word: ").strip()
@@ -30,3 +31,5 @@ a = input("Enter a word: ").strip()
 b = input("Enter a word: ").strip()
 List = [x,y,z,a,b]
 print("\n" + str(List))
+=======
+

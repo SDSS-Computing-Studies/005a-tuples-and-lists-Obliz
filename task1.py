@@ -24,9 +24,9 @@ The animal at that index is Dog
 
 
 
+<<<<<<< HEAD
 animals =["Mouse","Frog","Dog","Cow","Chicken"]
 
-animals.sort()
 
 index = input("Enter the index for an animal:")
 
