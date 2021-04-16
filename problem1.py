@@ -19,10 +19,38 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
-people=['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
-print(people)
-person1=(input("Choose a person from the list to replace: ").strip())
-person2=(input("Enter the replacement: ").strip())
-ind=people.index(person1)
-people.insert(ind.person2)
-print(people)
+list = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+print(list)
+choice = input("Choose a person from the list to replace:").strip()
+replace = input("Enter the replacement:").strip()
+ 
+if choice == "Alain":
+    list.pop(0)
+    list.insert(0, replace)
+    print(list)
+
+elif choice == "Brian":
+    list.pop(1)
+    list.insert(1, replace)
+    print(list)
+
+elif choice == "Chris":
+    list.pop(2)
+    list.insert(2, replace)
+    print(list)
+
+elif choice == "Justin":
+    list.pop(3)
+    list.insert(3, replace)
+    print(list)
+
+elif choice == "Angela":
+    list.pop(4)
+    list.insert(4, replace)
+    print(list)
+    
+elif choice == "Rick":
+    list.pop(5)
+    list.insert(5, replace)
+    print (list)
+

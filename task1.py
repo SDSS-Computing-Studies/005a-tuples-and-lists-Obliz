@@ -25,7 +25,24 @@ The animal at that index is Dog
 
 
 animals =["Mouse","Frog","Dog","Cow","Chicken"]
+
 animals.sort()
-print(animals)
-ind=int(input("Enter an index of the list: "))
-print("The animal at the index is "+animals[ind])
+
+index = input("Enter the index for an animal:")
+
+if int(index) == 0:
+    print("The animal at that index is ", animals[0])
+
+elif int(index) == 1:
+    print("The animal at that index is ", animals[1])
+
+elif int(index) == 2:
+    print("The animal at that index is ", animals[2])
+
+elif int(index) == 3:
+    print("The animal at that index is ", animals[3])
+
+else:
+    print("The animal at that index is ", animals[4])
+
+
