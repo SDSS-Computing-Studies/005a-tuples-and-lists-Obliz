@@ -23,13 +23,9 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
-<<<<<<< HEAD
-x = input("Enter a word: ").strip()
-y = input("Enter a word: ").strip()
-z = input("Enter a word: ").strip()
-a = input("Enter a word: ").strip()
-b = input("Enter a word: ").strip()
-List = [x,y,z,a,b]
-print("\n" + str(List))
-=======
-
+List = []
+for i in range(5):
+    #range5-> 0,1,2,3,4
+    a = input().strip()
+    List.append(a)
+print(List)

@@ -23,26 +23,11 @@ The animal at that index is Dog
 """
 
 
-
-<<<<<<< HEAD
-animals =["Mouse","Frog","Dog","Cow","Chicken"]
+myList = ["Cat","Fish","Dog","Bear","Turtle"]
 
 
-index = input("Enter the index for an animal:")
-
-if int(index) == 0:
-    print("The animal at that index is ", animals[0])
-
-elif int(index) == 1:
-    print("The animal at that index is ", animals[1])
-
-elif int(index) == 2:
-    print("The animal at that index is ", animals[2])
-
-elif int(index) == 3:
-    print("The animal at that index is ", animals[3])
-
-else:
-    print("The animal at that index is ", animals[4])
-
-
+animals = ['Cat','Fish','Dog','Bear','Turtle']
+animals.sort()
+print(animals)
+inp=int(input("Enter the index for an animal: "))
+print("the animal at that index is "+animals[inp])
